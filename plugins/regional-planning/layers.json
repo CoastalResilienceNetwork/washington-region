@@ -1,0 +1,86 @@
+[
+    {
+        "displayName": "Puget Sound",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Puget_Sound",
+            "name": "Puget_Sound"
+        },
+        "includeLayers": [
+			{
+				"name" : "Social and Regulatory Considerations",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Ecosystem Components",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Ecosystem Functions",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Flood Hazards",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "PSNERP",
+				"includeLayers" : [
+					{
+						"name" : "Base Layers",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Delta Metrics",
+						"includeLayers" : [
+							{
+								"name" : "Strategy_RiverDelta",
+								"displayName" : "Strategy RiverDelta"
+							},
+							{
+								"name" : "Risk Metrics",
+								"includeAllLayers" : true
+							},
+							{
+								"name" : "Potential Metrics",
+								"includeAllLayers" : true
+							},
+							{
+								"name" : "Degradation Metrics",
+								"includeAllLayers" : true
+							}
+						]
+					}
+				]
+			}	
+		]
+    },
+    {
+        "displayName": "Outer Coast",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Puget_Sound",
+            "name": "Puget_Sound"
+        },
+        "includeLayers": [
+			{
+				"name" : "Coastal Vulnerability and Habitat Roles, Grays Harbor Cnty, WA",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Coastal Vulnerability and Habitat Roles, Pacific County, WA",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Habitats, Grays Harbor Cnty, WA",
+				"displayName": "Habitats, Grays Harbor Cnty, WA"
+			},
+			{
+				"name" : "Habitats, Pacific County, WA",
+				"displayName": "Habitats, Pacific County, WA"
+			}
+		]
+    }
+]
