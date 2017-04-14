@@ -6,11 +6,11 @@
         },
         {
             "repo": "regional-planning",
-            "name": "community_planning"
+            "name": "regional-planning"
 		},
 		{
 			"repo": "regional-planning",
-			"name": "regional-planning"
+			"name": "outer-coast"
 		}
 	]
 }
