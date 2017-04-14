@@ -65,11 +65,6 @@
                     "pluginName": "flood_slr"
                 },
                 {
-                    "title": "<img src='img/flood_risk_explorer.png' hspace=10>Flood Risk Explorer",
-                    "description": "Text needed",
-                    "pluginName": "flood_risk_explorer"
-                },
-                {
                     "title": "<img src='img/regional_planning.png' hspace=10>Puget Sound",
                     "description": "Text needed",
                     "pluginName": "regional-planning"
