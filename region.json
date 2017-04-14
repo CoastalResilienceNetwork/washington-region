@@ -37,6 +37,7 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
+        "flood_risk_explorer",
 		"regional-planning",
 		"outer_coast",
 		"flood_slr",
@@ -60,6 +61,11 @@
             "description": "<p>Intro text for conveying both CR and FbD for Puget Sound and the Outer Coast</p>",
             "plugins": [
                 {
+                    "title": "<img src='img/flood_risk_explorer.png' hspace=10>Flood Risk Explorer",
+                    "description": "Text needed",
+                    "pluginName": "flood_risk_explorer"
+                },
+                {                    
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Text needed",
                     "pluginName": "flood_slr"
