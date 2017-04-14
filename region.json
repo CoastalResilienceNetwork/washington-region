@@ -37,7 +37,6 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-		"flood_risk_explorer",
 		"regional-planning",
 		"outer_coast",
 		"flood_slr",
