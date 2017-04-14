@@ -1,55 +1,28 @@
 [
     {
-        "displayName": "Puget Sound",
+        "displayName": "Outer Coast",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Washington",
             "name": "Washington"
         },
-        "includeLayers": [
+        		"includeLayers": [
 			{
-				"name" : "Social and Regulatory Considerations",
+				"name" : "Coastal Vulnerability and Habitat Roles, Grays Harbor Cnty, WA",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Ecosystem Components",
+				"name" : "Coastal Vulnerability and Habitat Roles, Pacific County, WA",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Ecosystem Functions",
-				"includeAllLayers" : true
+				"name" : "Habitats, Grays Harbor Cnty, WA",
+				"displayName": "Habitats, Grays Harbor Cnty, WA"
 			},
 			{
-				"name" : "Flood Hazards",
-				"includeAllLayers" : true
-			},
-			{
-        		"displayName": "Outer Coast",
-        		"server": {
-            		"type": "ags",
-            		"layerType": "dynamic",
-            		"url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Puget_Sound",
-            		"name": "Puget_Sound"
-        		},
-        			"includeLayers": [
-					{
-					"name" : "Coastal Vulnerability and Habitat Roles, Grays Harbor Cnty, WA",
-					"includeAllLayers" : true
-					},
-					{
-					"name" : "Coastal Vulnerability and Habitat Roles, Pacific County, WA",
-					"includeAllLayers" : true
-					},
-					{
-					"name" : "Habitats, Grays Harbor Cnty, WA",
-					"displayName": "Habitats, Grays Harbor Cnty, WA"
-					},
-					{
-					"name" : "Habitats, Pacific County, WA",
-					"displayName": "Habitats, Pacific County, WA"
-					}
-				]
+				"name" : "Habitats, Pacific County, WA",
+				"displayName": "Habitats, Pacific County, WA"
             }
         ]
     }
