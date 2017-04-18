@@ -77,7 +77,7 @@
                 },
                 {
                     "title": "<img src='img/community_planning.png' hspace=10>Outer Coast",
-                    "description": "The spatial layers for the Outer Coast of Washington provide a visualization of the results presented in the report, Using Coastal Vulnerability Assessment Results for the Shorelines of Pacific and Grays Harbor Counties: <a href= 'methods/Coastal Vulnerability Guidance.FINAL.April2017_v6.pdf' target='_blank'><b>A Practitioner’s Guide</b></a><br><br>Click the “i” button within each application to view more information about the maps and data sources</br></br>",
+                    "description": "The spatial layers for the Outer Coast of Washington provide a visualization of the results presented in the report, Using Coastal Vulnerability Assessment Results for the Shorelines of Pacific and Grays Harbor Counties: <a href= 'methods/Coastal Vulnerability Guidance.FINAL.April2017_v6.pdf' target='_blank'><b>A Practitioner’s Guide</b></a><br><br>Click the “i” button next to the spatial data layers within each application to view more information about the maps and data sources</br></br>",
                     "pluginName": "outer_coast"
                 }
             ],
@@ -88,7 +88,7 @@
                     "title": ""
                 },
                 {
-                    "logoPath": "img/PSP1.png",
+                    "logoPath": "img/PSP2.png",
                     "link": "",
                     "title": ""
                 },
