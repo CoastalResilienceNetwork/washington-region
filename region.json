@@ -88,11 +88,6 @@
                     "title": ""
                 },
                 {
-                    "logoPath": "img/USGS1.png",
-                    "link": "",
-                    "title": ""
-                },
-                {
                     "logoPath": "img/PSP1.png",
                     "link": "",
                     "title": ""
@@ -104,6 +99,11 @@
                 },
                 {
                     "logoPath": "img/SnohoCo1.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/USGS1.png",
                     "link": "",
                     "title": ""
             }
