@@ -38,9 +38,9 @@
     ],
     "pluginOrder": [
         "flood_risk_explorer",
+        "flood_slr",
 		"regional-planning",
 		"outer_coast",
-		"flood_slr",
         "zoom_to",
         "measure",
         "legend_display",
@@ -58,34 +58,54 @@
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "Puget Sound and the Outer Coast",
-            "description": "<p>Intro text for conveying both CR and FbD for Puget Sound and the Outer Coast</p>",
+            "description": "<p>Welcome to the Coastal Resilience/Floodplains by Design decision support tools where users can explore data and spatial analysis results for the rivers and shorelines of Washington from Puget Sound to the Outer Coast. These tools provide managers and planners mechanisms to explore the role of natural habitat in risk reduction along marine and fresh water shorelines to inform local restoration projects and development planning.</p>",
             "plugins": [
                 {
                     "title": "<img src='img/flood_risk_explorer.png' hspace=10>Flood Risk Explorer",
-                    "description": "Text needed",
+                    "description": "The Flood Risk Explorer displays historic and probabilistic future flooding events along with predicted economic losses, acres of agriculture, and people displaced due to inundation.",
                     "pluginName": "flood_risk_explorer"
                 },
                 {                    
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
-                    "description": "Text needed",
+                    "description": "The Sea Level Rise application allows users to view projected sea level rise scenarios spatially.",
                     "pluginName": "flood_slr"
                 },
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Puget Sound",
-                    "description": "Text needed",
+                    "description": "The Puget Sound layers are designed to inform Floodplains by Design planning and restoration projects, in order to provide flood protection, restore salmon habitats, protect agricultural vitality, improve water quality, and enhance outdoor recreation.",
                     "pluginName": "regional-planning"
                 },
                 {
                     "title": "<img src='img/community_planning.png' hspace=10>Outer Coast",
-                    "description": "Text needed",
+                    "description": "The spatial layers for the Outer Coast of Washington provide a visualization of the results presented in the report, Using Coastal Vulnerability Assessment Results for the Shorelines of Pacific and Grays Harbor Counties: <a href= 'methods/Coastal Vulnerability Guidance.FINAL.April2017_v6.pdf' target='_blank'><b>A Practitioner’s Guide</b></a><br><br>Click the “i” button within each application to view more information about the maps and data sources</br></br>",
                     "pluginName": "outer_coast"
                 }
             ],
             "partners": [
                 {
                     "logoPath": "img/tnc1.png",
-                    "link": "http://nature.org",
-                    "title": "The Nature Conservancy"
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/USGS1.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/PSP1.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/WaEcology1.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/SnohoCo1.png",
+                    "link": "",
+                    "title": ""
             }
         ]
     }
