@@ -88,11 +88,6 @@
                     "title": ""
                 },
                 {
-                    "logoPath": "img/PSP2.png",
-                    "link": "",
-                    "title": ""
-                },
-                {
                     "logoPath": "img/WaEcology1.png",
                     "link": "",
                     "title": ""
@@ -104,6 +99,11 @@
                 },
                 {
                     "logoPath": "img/USGS1.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/PSP2.png",
                     "link": "",
                     "title": ""
             }
