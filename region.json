@@ -83,12 +83,12 @@
             ],
             "partners": [
                 {
-                    "logoPath": "img/tnc1.png",
+                    "logoPath": "img/img/TNCLogoPrimary_RGB.png",
                     "link": "",
                     "title": ""
                 },
                 {
-                    "logoPath": "img/WaEcology1.png",
+                    "logoPath": "img/WAEcology.png",
                     "link": "",
                     "title": ""
                 },
@@ -98,12 +98,12 @@
                     "title": ""
                 },
                 {
-                    "logoPath": "img/USGS1.png",
+                    "logoPath": "img/USGS.png",
                     "link": "",
                     "title": ""
                 },
                 {
-                    "logoPath": "img/PSPlogo4.jpg",
+                    "logoPath": "img/PSP.jpg",
                     "link": "",
                     "title": ""
             }
