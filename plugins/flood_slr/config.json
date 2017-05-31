@@ -13,7 +13,7 @@
 				{"name":"Choose Sea Level Rise", "type": "slider", "index":2, "values":[ {"name":"None","value":"None", "selected": true},{"name":"Mean","value":"Mean"},{"name":"Max","value":"Max"}]}
 				
 				],
-			"mainURL": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Puget_Sound/Nisqually_Flood_and_SLR/MapServer",
+			"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/Puget_Sound/Nisqually_Flood_and_SLR/MapServer",
 			"combos": {
 			
 				
@@ -63,7 +63,7 @@
 				{"name":"Choose Sea Level Rise", "type": "slider", "index":2, "values":[ {"name":"None","value":"None", "selected": true},{"name":"Mean","value":"Mean"},{"name":"Max","value":"Max"}]}
 				
 				],
-			"mainURL": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Puget_Sound/Nooksack_Flood_and_SLR/MapServer",
+			"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/Puget_Sound/Nooksack_Flood_and_SLR/MapServer",
 			"combos": {
 			
 				
@@ -113,7 +113,7 @@
 				{"name":"Choose Sea Level Rise", "type": "slider", "index":2, "values":[ {"name":"None","value":"None", "selected": true},{"name":"Mean","value":"Mean"},{"name":"Max","value":"Max"}]}
 				
 				],
-			"mainURL": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Puget_Sound/Skagit_Flood_and_SLR/MapServer",
+			"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/Puget_Sound/Skagit_Flood_and_SLR/MapServer",
 			"combos": {
 			
 				
@@ -163,7 +163,7 @@
 				{"name":"Choose Sea Level Rise", "type": "slider", "index":2, "values":[ {"name":"None","value":"None", "selected": true},{"name":"Mean","value":"Mean"},{"name":"Max","value":"Max"}]}
 				
 				],
-			"mainURL": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Puget_Sound/Snohomish_Flood_and_SLR/MapServer",
+			"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/Puget_Sound/Snohomish_Flood_and_SLR/MapServer",
 			"combos": {
 			
 				
@@ -213,7 +213,7 @@
 				{"name":"Choose Sea Level Rise", "type": "slider", "index":2, "values":[ {"name":"None","value":"None", "selected": true},{"name":"Mean","value":"Mean"},{"name":"Max","value":"Max"}]}
 				
 				],
-			"mainURL": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Puget_Sound/Stillaguamish_Flood_and_SLR/MapServer",
+			"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/Puget_Sound/Stillaguamish_Flood_and_SLR/MapServer",
 			"combos": {
 			
 				
