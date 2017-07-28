@@ -38,7 +38,7 @@
     ],
     "pluginOrder": [
         "flood_risk_explorer",
-        "flood_slr",
+        "flood-slr",
 		"regional-planning",
 		"outer_coast",
         "zoom_to",
