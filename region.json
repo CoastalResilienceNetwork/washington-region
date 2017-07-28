@@ -38,6 +38,7 @@
     ],
     "pluginOrder": [
 		"regional-planning",
+        "flood-slr",
 		"outer_coast",
         "zoom_to",
         "measure",
