@@ -15,9 +15,9 @@
 	},
 	"region": {
 		"Gray's Harbor County": {
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer",
+			"url": "http://services.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer"
+				"main": "http://services.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -69,9 +69,9 @@
 			}
 		},
 		"Pacific County": {
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer",
+			"url": "http://services.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer"
+				"main": "http://services.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
