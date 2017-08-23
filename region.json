@@ -57,28 +57,23 @@
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
-            "title": "Puget Sound and the Outer Coast",
-            "description": "<p>Welcome to the Coastal Resilience/Floodplains by Design decision support tools where users can explore data and spatial analysis results for the rivers and shorelines of Washington from Puget Sound to the Outer Coast. These tools provide managers and planners mechanisms to explore the role of natural habitat in risk reduction along marine and fresh water shorelines to inform local restoration projects and development planning.</p>",
+            "title": "Puget Sound and Southwest Washington",
+            "description": "<p>Welcome to the home of decision support tools for Washington where users can explore data and spatial analysis results for the rivers and shorelines from Puget Sound to the outer coast. These tools provide managers and planners mechanisms to explore the impacts of sea level rise as well as the role of natural habitat in risk reduction along marine and fresh water shorelines to inform local restoration projects and development planning.</p>",
             "plugins": [
                 {
-                    "title": "<img src='img/flood_risk_explorer.png' hspace=10>Flood Risk Explorer",
-                    "description": "The Flood Risk Explorer displays historic and probabilistic future flooding events along with predicted economic losses, acres of agriculture, and people displaced due to inundation.",
-                    "pluginName": "flood_risk_explorer"
-                },
-                {                    
-                    "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
-                    "description": "The Sea Level Rise application allows users to view projected sea level rise scenarios spatially.",
-                    "pluginName": "flood_slr"
-                },
-                {
-                    "title": "<img src='img/regional_planning.png' hspace=10>Puget Sound",
+                    "title": "<img src='img/regional_planning.png' hspace=10>Floodplains by Design - Puget Sound",
                     "description": "The Puget Sound layers are designed to inform Floodplains by Design planning and restoration projects, in order to provide flood protection, restore salmon habitats, protect agricultural vitality, improve water quality, and enhance outdoor recreation.",
                     "pluginName": "regional-planning"
                 },
                 {
-                    "title": "<img src='img/community_planning.png' hspace=10>Outer Coast",
-                    "description": "The spatial layers for the Outer Coast of Washington provide a visualization of the results presented in the report, Using Coastal Vulnerability Assessment Results for the Shorelines of Pacific and Grays Harbor Counties: <a href= 'methods/Coastal Vulnerability Guidance.FINAL.April2017_v6.pdf' target='_blank'><b>A Practitioner’s Guide</b></a><br><br>Click the “i” button next to the spatial data layers within each application to view more information about the maps and data sources</br></br>",
+                    "title": "<img src='img/community_planning.png' hspace=10>Coastal Vulnerability - Southwest Washington",
+                    "description": "The spatial layers for southwest Washington provide a visualization of the results presented in the report, Using Coastal Vulnerability Assessment Results for the Shorelines of Pacific and Grays Harbor Counties: <a href= 'methods/Coastal Vulnerability Guidance.FINAL.April2017_v6.pdf' target='_blank'><b>A Practitioner’s Guide</b></a>",
                     "pluginName": "outer_coast"
+                },
+                {                    
+                    "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise - Southwest Washington",
+                    "description": "The Flood and Sea Level Rise tool allows communities to view how water may flood inland as sea levels rise. The inundation maps are based off of <a href= 'https://tidesandcurrents.noaa.gov/publications/techrpt83_Global_and_Regional_SLR_Scenarios_for_the_US_final.pdf' target='_blank'><b>NOAA's 2017</b></a>sea level rise projections for southwest Washington.",
+                    "pluginName": "flood_slr"
                 }
             ],
             "partners": [
