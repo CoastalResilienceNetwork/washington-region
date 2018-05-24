@@ -28,27 +28,7 @@
 				"name" : "Lower Snohomish",
 				"includeLayers" : [
 					{
-						"name" : "Boundaries",
-						"includeAllLayers" : true
-					},
-					{
 						"name" : "Fish Habitat",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Agriculture",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Social and Economic",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Infrastructure",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Old Flood and SLR",
 						"includeAllLayers" : true
 					}
 				]
