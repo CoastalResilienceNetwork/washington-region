@@ -85,5 +85,19 @@
 				]
 			}
 		]
+    },
+    {
+        "displayName": "Flood and SLR data",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Washington",
+            "name": "Flood_SLR"
+        },
+         "includeLayers": [
+			{
+				"includeAllLayers" : true
+			}
+		]
     }
 ]
