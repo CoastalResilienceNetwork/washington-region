@@ -96,7 +96,16 @@
         },
          "includeLayers": [
 			{
-				"includeAllLayers" : true
+				"name" : "Historical (1980s) Flood Depth (ft) 10%"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 10%, Low, 5th"
+			},
+			{
+				"name" : "Historical (1980s) Flood Depth (ft) 10%"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 10%, Low, 5th"
 			}
 		]
     }
