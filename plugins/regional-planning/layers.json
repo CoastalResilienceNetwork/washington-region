@@ -55,5 +55,173 @@
 				]
 			}
 		]
+    },
+    {
+        "displayName": "Flood and SLR data",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Washington",
+            "name": "Flood_SLR"
+        },
+         "includeLayers": [
+			{
+				"name" : "Historical (1980s) Flood Depth (ft) 10%"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 10%, Low, 5th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 10%, Low, 50th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 10%, Low, 95th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 10%, High, 5th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 10%, High, 50th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 10%, High, 95th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 10%, Low, 5th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 10%, Low, 50th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 10%, Low, 95th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 10%, High, 5th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 10%, High, 50th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 10%, High, 95th"
+			},
+			{
+				"name" : "Historical (1980s) Flood Depth (ft) 1%"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 1%, Low, 5th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 1%, Low, 50th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 1%, Low, 95th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 1%, High, 5th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 1%, High, 50th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 1%, High, 95th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 1%, Low, 5th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 1%, Low, 50th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 1%, Low, 95th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 1%, High, 5th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 1%, High, 50th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 1%, High, 95th"
+			},
+			{
+				"name" : "Historical (1980s) Flood Depth (ft) 50%"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 50%, Low, 5th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 50%, Low, 50th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 50%, Low, 95th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 50%, High, 5th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 50%, High, 50th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 50%, High, 95th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 50%, Low, 5th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 50%, Low, 50th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 50%, Low, 95th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 50%, High, 5th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 50%, High, 50th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 50%, High, 95th"
+			},
+			{
+				"name" : "Historical (1980s) Flood Depth (ft) 2%"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 2%, Low, 5th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 2%, Low, 50th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 2%, Low, 95th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 2%, High, 5th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 2%, High, 50th"
+			},
+			{
+				"name" : "2050 Flood Depth (ft) 2%, High, 95th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 2%, Low, 5th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 2%, Low, 50th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 2%, Low, 95th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 2%, High, 5th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 2%, High, 50th"
+			},
+			{
+				"name" : "2080 Flood Depth (ft) 2%, High, 95th"
+			}
+		]
     }
+]
 ]
