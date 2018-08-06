@@ -153,7 +153,7 @@
 								"value": ""
 							},
 							{
-								"name": "Riverine & Sea Level Rise",
+								"name": "Riverine & Coastal Flooding",
 								"value": "sea_level_rise",
 								"controls": {
 									"slider": ["climate"],
@@ -167,7 +167,7 @@
 				"slider": {
 					"climate": { 
 						"disabled": false, "show": true, "title": "Flood Year",
-						"labels": ["Historic", "2040", "2080"] 
+						"labels": ["Historic (1980s)", "2050s", "2080s"] 
 					}
 				},
 				"togglebutton": {
@@ -181,7 +181,7 @@
 								"name": "low",
 								"value": "low",
 								"label": "Low",
-								"checked": true
+								"checked": false
 							},
 							"high": {
 								"disabled": false,
@@ -191,13 +191,23 @@
 								"name": "high",
 								"value": "high",
 								"label": "High",
-								"checked": false
+								"checked": true
 							}
 						},
-						"label": "Select Sea Level Rise Scenario:"
+						"label": "Select Greenhouse Gas Scenario:"
 					},
 					"eventtype": {
 						"controls": {
+							"2yr": {
+								"disabled": false,
+								"show": true,
+								"type": "radio",
+								"group": "eventtype",
+								"name": "2yr",
+								"value": "2yr",
+								"label": "50% (2-year)",
+								"checked": true
+							},
 							"10yr": {
 								"disabled": false,
 								"show": true,
@@ -206,16 +216,16 @@
 								"name": "10yr",
 								"value": "10yr",
 								"label": "10% (10-year)",
-								"checked": true
+								"checked": false
 							},
-							"100yr": {
+							"25yr": {
 								"disabled": false,
 								"show": true,
 								"type": "radio",
 								"group": "eventtype",
-								"name": "100yr",
-								"value": "100yr",
-								"label": "1% (100-year)",
+								"name": "25yr",
+								"value": "25yr",
+								"label": "4% (25-year)",
 								"checked": false
 							}
 						},
@@ -224,7 +234,7 @@
 				}
 			},
 			"download": {
-				"report":"HOSTNAME-methods/FinalReport_CIG_TNC_Snohomish--20141209.pdf",
+				"report":"",
 				"data":""
 			}
 		}
