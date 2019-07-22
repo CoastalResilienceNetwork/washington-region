@@ -87,24 +87,6 @@
 		]
     },
     {
-        "displayName": "WAPSP Floodplains Condition Assessment",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "https://gismanager.rco.wa.gov/arcgis/rest/services/PSP/"
-        },
-        "includeLayers": [
-            {
-                "server": {
-                    "name": "WAPSP_FloodplainsExtent"
-                },
-                "name": "prism_gis_v.PSP.Combined_Regional_Pilot_BaselineExtent_diss",
-                "displayName": "Floodplains Extent",
-                "includeAllLayers" : true
-            }
-        ]
-    },
-    {
         "displayName": "Flood and SLR data",
         "server": {
             "type": "ags",
@@ -270,5 +252,22 @@
 				"name" : "2080 Flood Depth (ft) 2%, High, 95th"
 			}
 		]
+    },
+    {
+        "displayName": "WAPSP Floodplains Condition Assessment",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://gismanager.rco.wa.gov/arcgis/rest/services/PSP/"
+        },
+        "includeLayers": [
+            {
+                "server": {
+                    "name": "WAPSP_FloodplainsExtent"
+                },
+                "name": "prism_gis_v.PSP.Combined_Regional_Pilot_BaselineExtent_diss",
+                "displayName": "Floodplains Extent"
+            }
+        ]
     }
 ]
