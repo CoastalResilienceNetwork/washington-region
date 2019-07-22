@@ -55,6 +55,26 @@
 				]
 			},
 			{
+        		"name": "WAPSP Floodplains Condition Assessment",
+        		"description":"Various population data from the U.S. Census Bureau.",
+        		"server": {
+            		"type": "ags",
+            		"layerType": "dynamic",
+            		"url": "https://gismanager.rco.wa.gov/arcgis/rest/services/PSP"
+        		},
+        		"includeLayers": [
+            		{
+               		"server": {
+                    		"name": "WAPSP_FloodplainsExtent"
+                		},
+                		"name": "prism_gis_v.PSP.Combined_Regional_Pilot_BaselineExtent_diss",
+                		"displayName": "Floodplains Extent",
+                		"description":"Various population data from the U.S. Census Bureau.",
+                		"includeAllLayers" : true
+            		}
+        		]
+    		},
+			{
 				"name" : "PSNERP",
 				"includeLayers" : [
 					{
