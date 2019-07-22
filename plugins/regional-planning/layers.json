@@ -255,7 +255,7 @@
     },
     {
         "displayName": "WAPSP Floodplains Condition Assessment",
-        "description":"Infrastructure data such as schools, fire and rescue stations and data from a road vulnerability study.",
+        "description":"The purpose of the project is to develop consensus about a regional floodplain “footprint”, i.e. extent, and assess the condition within the extent across  <a href='https://www.arcgis.com/home/webmap/viewer.html?webmap=701debf131524692bab2d6566010811a&extent=-126.3503,46.6562,-119.0938,49.4781' target='_blank'><b>all (17) major rivers in the Puget Sound</b> to help monitor progress in protecting and restoring floodplain function.<a></br>",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -267,7 +267,8 @@
                     "name": "WAPSP_FloodplainsExtent"
                 },
                 "name": "prism_gis_v.PSP.Combined_Regional_Pilot_BaselineExtent_diss",
-                "displayName": "Floodplains Extent"
+                "displayName": "Floodplains Extent",
+                "description":"Infrastructure data such as schools, fire and rescue stations and data from a road vulnerability study."
             },
             {
                 "server": {
