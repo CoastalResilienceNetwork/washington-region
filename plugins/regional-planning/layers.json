@@ -255,7 +255,7 @@
     },
     {
         "displayName": "WAPSP Floodplains Condition Assessment",
-        "description":"The purpose of the project is to develop consensus about a regional floodplain “footprint”, i.e. extent, and assess the condition within the extent across  <a href='https://www.arcgis.com/home/webmap/viewer.html?webmap=701debf131524692bab2d6566010811a&extent=-126.3503,46.6562,-119.0938,49.4781' target='_blank'><b>all (17) major rivers in the Puget Sound</b> to help monitor progress in protecting and restoring floodplain function.<a></br>",
+        "description":"The purpose of the project is to develop consensus about a regional floodplain “footprint”, i.e. extent, and assess the condition within the extent across  <a href='https://www.arcgis.com/home/webmap/viewer.html?webmap=701debf131524692bab2d6566010811a&extent=-126.3503,46.6562,-119.0938,49.4781' target='_blank'><b>all (17) major rivers in the Puget Sound</b></a> to help monitor progress in protecting and restoring floodplain function.</br>",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -268,14 +268,15 @@
                 },
                 "name": "prism_gis_v.PSP.Combined_Regional_Pilot_BaselineExtent_diss",
                 "displayName": "Floodplains Extent",
-                "description":"Infrastructure data such as schools, fire and rescue stations and data from a road vulnerability study."
+                "description":"The Combined Regional Pilot Baseline Extent layer was developed as part of the Partnership’s Floodplain Vital Sign Data Refinement Project. The purpose of the project is to develop consensus about a regional floodplain “footprint” and assess the condition of the floodplain across all (17) major rivers in the Puget Sound to help monitor progress in protecting and restoring floodplain conditions. This layer represents the baseline floodplain extent layer for 2011. Specifically, this combined layer represents the integration of the 3 pilot watersheds (Green-Duwamish, Stillaguamish and Dungeness) with the 14 other watershed conditions assessments. This dataset is a dissolved version of the original available <a href='https://pspwa.box.com/v/MonitoringFloodplainProject' target='_blank'><b>Here</b></a><br><br> Also see<a href='https://wa-psp.maps.arcgis.com/home/item.html?id=e52b25bf896440e4ade442f5fe548efe' target='_blank'><b>this map service</b></a>."
             },
             {
                 "server": {
                     "name": "WAPSP_PugetSoundFloodplainCondAssess_L1"
                 },
                 "name": "FloodplainCondAssess_L1_wm",
-                "displayName": "Floodplain Condition Assessment"
+                "displayName": "Floodplain Condition Assessment",
+                "description":"This layer represents the relative condition of the floodplain within the floodplain extent layer based on the combined factors of: connectivity, land use and land cover for a baseline condition for 2011. Also see this map service <a href='https://wa-psp.maps.arcgis.com/home/item.html?id=1bb9abca6a5c45cda5624f658f2b9006' target='_blank'><b>this map service</b></a>."
             }
         ]
     }
