@@ -96,7 +96,7 @@
         "includeLayers": [
             {
                 "server": {
-                    "name": "WAPSP_FloodplainsExten"
+                    "name": "WAPSP_FloodplainsExtent"
                 },
                 "name": "prism_gis_v.PSP.Combined_Regional_Pilot_BaselineExtent_diss",
                 "displayName": "Floodplains Extent",
