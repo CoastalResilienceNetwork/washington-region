@@ -36,12 +36,12 @@
 			"sea_level_rise|2100|high": [9],
 			"sea_level_rise|2100|extr": [12]
 		},
-		"Snohomish County": {
+		"Snohomish Watershed": {
 			"sea_level_rise|1980s|low|2yr": [40],
 			"sea_level_rise|1980s|high|2yr": [40],
 			"sea_level_rise|1980s|low|10yr": [14],
 			"sea_level_rise|1980s|high|10yr": [14],
-			"sea_level_rise|1980s|low|25yr": [53],			
+			"sea_level_rise|1980s|low|25yr": [53],
 			"sea_level_rise|1980s|high|25yr": [53],
 			"sea_level_rise|1980s|low|100yr": [27],
 			"sea_level_rise|1980s|high|100yr": [27],
