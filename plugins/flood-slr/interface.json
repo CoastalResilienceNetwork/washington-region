@@ -122,7 +122,7 @@
 				"data":""
 			}
 		},
-		"Snohomish County": {
+		"Snohomish Watershed": {
 			"url": "https://services2.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer",
 			"layers": {
 				"main": "https://services2.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer"
@@ -135,10 +135,10 @@
 				"togglegroup_eventtype": "Flooding events are defined by the probability that an equal or greater event will occur in a given year...sometimes referred to as the 'Annual Chance of Exceedance.' For example, the 100-year event is associated with conditions that have a 1% probability of occurring in any given year. Similarly:<br><br><ul><li>the 2-year flood has a 50% annual chance of occurring,</li><li>the 10-year flood has a 10% annual chance of occurring, and</li><li>the 25-year flood has a 4% annual chance of occurring</li></ul>."
 			},
 			"extent": {
-				"xmin":-13631418.324041456,
-				"ymin":6070000.5605738563,
-				"xmax":-13559821.930848669,
-				"ymax":6125000.1437590225,
+				"xmin":-13645463.61778515,
+				"ymin":5995810.3754542638,
+				"xmax":-13466198.630671747,
+				"ymax":6186430.4223982999,
 				"spatialReference":{
 					"wkid":102100,
 					"latestWkid":3857
@@ -159,7 +159,14 @@
 									"slider": ["climate"],
 									"togglebutton":["floodtype","eventtype"]
 									
-								}
+								},
+								"footer":"Note: click on the map to identify the flood depth at that specific location.",
+								"partners": [
+									{
+										"logoPath": "CIG.jpg",
+										"link": ""
+									}
+								]
 							}
 						]
 					}

@@ -70,8 +70,8 @@
                     "pluginName": "outer_coast"
                 },
                 {                    
-                    "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise - Southwest Washington",
-                    "description": "The Flood and Sea Level Rise tool allows communities to view how water may flood inland as sea levels rise. The inundation maps are based off of <a href= 'https://tidesandcurrents.noaa.gov/publications/techrpt83_Global_and_Regional_SLR_Scenarios_for_the_US_final.pdf' target='_blank'><b>NOAA's 2017</b></a>sea level rise projections for southwest Washington.",
+                    "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
+                    "description": "The Flood and Sea Level Rise tool allows communities to view how water may flood inland as sea levels rise. The inundation maps are based off of <a href= 'https://tidesandcurrents.noaa.gov/publications/techrpt83_Global_and_Regional_SLR_Scenarios_for_the_US_final.pdf' target='_blank'><b>NOAA's 2017</b></a>sea level rise projections for Washington.",
                     "pluginName": "flood-slr"
                 }
             ],
