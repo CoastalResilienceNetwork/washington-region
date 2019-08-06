@@ -129,7 +129,14 @@
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change vulnerability studies have been conducted on issues such as sea level rise, storm surges, and riverine flooding.",
-				"hazard": "Spatial extent for different hazards that may affect coastal or floodplain assets. Impact zones were estimated across multiple planning horizons.",
+				"hazard": {
+					"control":"hazard",
+					"values": {
+						"sea_level_rise":"Spatial extent for different hazards that may affect coastal or floodplain assets. Impact zones were estimated across multiple planning horizons.",
+						"groundwater":"Average weeks of start delay that farmers may experience to begin crop cultivation in spring, relative to their current experience. Groundwater projections were completed using the 50% probability of exceedance relative sea level rise (RSLR) for two scenarios that bracket the range of likely future conditions: a low RSLR with low greenhouse gas scenario (RCP 4.5) and high RSLR projections for a corresponding high greenhouse gas scenario (RCP 8.5). (Source: Technical memo by Cardno, 2018.)",
+						"salinity":"Unmitigated future landward advance of a 3 mS/cm salinity threshold for late spring and early summer shallow groundwater, driven by rising sea levels under conditions of low river flows, high tides, and future sea levels as predicted for climate scenario RCP 8.5 (high emissions). A future increase in rooting-zone salinity due to RSLR is likely to be “significant” once salinities surpass 2 mS/cm. Because the existing salinity measurements (and, thus, future projections based on those data) are not restricted to the rooting zone, however, a somewhat more liberal value of 3 mS/cm was chosen instead as the threshold for highlighting potential impacts of seawater intrusion. (Source: Technical report by Cardno, 2019.)"
+					}
+				},
 				"climate": "Flood depths and extents are derived by calculating where excess streamflow ends up on the landscape. The “Historic” flood depths are based on an analysis of more than a century of past flood events. The “Future” flood depths are based on changes in temperature and precipitation relative to 1970-1999. The 2050s flood depth reference period is 2040-2069 and the 2080s flood depth reference period is 2070-2099.",
 				"togglegroup_floodtype": "The timing and magnitude of climate change will depend on the amount of greenhouse gases emitted and the response of the climate system to the change in greenhouse gases. To make projections of future climate, scientists use “what if” scenarios of plausible future greenhouse gas emissions to drive computer model simulations of the earth’s climate. We have included low and high scenarios to bracket the range of possible future changes in climate. These range from a low greenhouse gas emissions scenario and relatively smaller change in flooding, to a medium greenhouse gas scenario and relatively larger change in flooding.",
 				"togglegroup_eventtype": "Flooding events are defined by the probability that an equal or greater event will occur in a given year...sometimes referred to as the 'Annual Chance of Exceedance.' For example, the 100-year event is associated with conditions that have a 1% probability of occurring in any given year. Similarly:<br><br><ul><li>the 2-year flood has a 50% annual chance of occurring,</li><li>the 10-year flood has a 10% annual chance of occurring, and</li><li>the 25-year flood has a 4% annual chance of occurring</li></ul>."
@@ -167,14 +174,39 @@
 										"link": ""
 									}
 								]
+							},
+							{
+								"name": "Delay to Spring Crop Cultivation",
+								"value": "groundwater",
+								"controls": { 
+									"slider": ["climate"],
+									"togglebutton":["floodtype"]
+								}
+							},
+							{
+								"name": "Early Summer Salinity Intrusion",
+								"value": "salinity",
+								"controls": { 
+									"slider": ["climate"]
+								}
 							}
 						]
 					}
 				},
 				"slider": {
 					"climate": { 
-						"disabled": false, "show": true, "title": "Flood Year",
-						"labels": ["1980s", "2050s", "2080s"] 
+						"disabled": false, 
+						"show": true, 
+						"title": {
+							"sea_level_rise": "Flood Year",
+							"groundwater": "RSLR Year",
+							"salinity": "RSLR Year"
+						},
+						"labels": {
+							"sea_level_rise": ["1980s", "2050s", "2080s"],
+							"groundwater": ["2050", "2080", "2100"],
+							"salinity": ["2018", "2050", "2080", "2100"]
+						}
 					}
 				},
 				"togglebutton": {

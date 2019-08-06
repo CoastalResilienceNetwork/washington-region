@@ -62,7 +62,19 @@
 			"sea_level_rise|2080s|low|25yr": [61],
 			"sea_level_rise|2080s|high|25yr": [64],
 			"sea_level_rise|2080s|low|100yr": [35],
-			"sea_level_rise|2080s|high|100yr": [38]
+			"sea_level_rise|2080s|high|100yr": [38],
+			
+			"groundwater|2050|low": [76],
+			"groundwater|2080|low": [78],
+			"groundwater|2100|low": [80],
+			"groundwater|2050|high": [77],
+			"groundwater|2080|high": [79],
+			"groundwater|2100|high": [81],
+			
+			"salinity|2018": [67,71],
+			"salinity|2050": [68,72],
+			"salinity|2080": [69,73],
+			"salinity|2100": [70,74]
 		}
 	}
 }
