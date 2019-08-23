@@ -71,10 +71,20 @@
 			"groundwater|2080|high": [79],
 			"groundwater|2100|high": [81],
 			
-			"salinity|2018": [67,71],
-			"salinity|2050": [68,72],
-			"salinity|2080": [69,73],
-			"salinity|2100": [70,74]
+			"salinity|2018|both": [67,71],
+			"salinity|2050|both": [68,72],
+			"salinity|2080|both": [69,73],
+			"salinity|2100|both": [70,74],
+			
+			"salinity|2018|threshold": [67],
+			"salinity|2050|threshold": [68],
+			"salinity|2080|threshold": [69],
+			"salinity|2100|threshold": [70],
+			
+			"salinity|2018|intrusion": [71],
+			"salinity|2050|intrusion": [72],
+			"salinity|2080|intrusion": [73],
+			"salinity|2100|intrusion": [74]
 		}
 	}
 }

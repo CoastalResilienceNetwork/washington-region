@@ -187,7 +187,8 @@
 								"name": "Early Summer Salinity Intrusion",
 								"value": "salinity",
 								"controls": { 
-									"slider": ["climate"]
+									"slider": ["climate"],
+									"togglebutton":["salinitytype"]
 								}
 							}
 						]
@@ -279,6 +280,41 @@
 							}
 						},
 						"label": "Select Annual Chance Event:"
+					},
+					"salinitytype": {
+						"controls": {
+							"threshold": {
+								"disabled": false,
+								"show": true,
+								"type": "radio",
+								"group": "salinitytype",
+								"name": "threshold",
+								"value": "threshold",
+								"label": "Threshold<br>(3 mS/cm)<br>only",
+								"checked": false
+							},
+							"both": {
+								"disabled": false,
+								"show": true,
+								"type": "radio",
+								"group": "salinitytype",
+								"name": "both",
+								"value": "both",
+								"label": "Both",
+								"checked": true
+							},
+							"intrusion": {
+								"disabled": false,
+								"show": true,
+								"type": "radio",
+								"group": "salinitytype",
+								"name": "intrusion",
+								"value": "intrusion",
+								"label": "Intrusion<br>(mS/cm)<br>only",
+								"checked": false
+							}
+						},
+						"label": "Select the layer to visualize:"
 					}
 				}
 			},
