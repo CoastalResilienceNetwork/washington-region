@@ -122,7 +122,7 @@
 				"data":""
 			}
 		},
-		"Snohomish Watershed": {
+		"Snohomish County": {
 			"url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer",
 			"layers": {
 				"main": "https://dev-services.coastalresilience.org/arcgis/rest/services/Washington/Flood_SLR/MapServer"
@@ -133,8 +133,8 @@
 					"control":"hazard",
 					"values": {
 						"sea_level_rise":"Spatial extent for different hazards that may affect coastal or floodplain assets. Impact zones were estimated across multiple planning horizons.",
-						"groundwater":"Average weeks of start delay that farmers may experience to begin crop cultivation in spring, relative to their current experience. Groundwater projections were completed using the 50% probability of exceedance relative sea level rise (RSLR) for two scenarios that bracket the range of likely future conditions: a low RSLR with low greenhouse gas scenario (RCP 4.5) and high RSLR projections for a corresponding high greenhouse gas scenario (RCP 8.5). (Source: Technical memo by Cardno, 2018.)",
-						"salinity":"Unmitigated future landward advance of a 3 mS/cm salinity threshold for late spring and early summer shallow groundwater, driven by rising sea levels under conditions of low river flows, high tides, and future sea levels as predicted for climate scenario RCP 8.5 (high emissions). A future increase in rooting-zone salinity due to RSLR is likely to be “significant” once salinities surpass 2 mS/cm. Because the existing salinity measurements (and, thus, future projections based on those data) are not restricted to the rooting zone, however, a somewhat more liberal value of 3 mS/cm was chosen instead as the threshold for highlighting potential impacts of seawater intrusion. (Source: Technical report by Cardno, 2019.)"
+						"groundwater":"The timing and magnitude of climate change will depend on the amount of greenhouse gases emitted and the response of the climate system to the change in greenhouse gases. To make projections of future climate, scientists use 'what if' scenarios of plausible future greenhouse gas emissions to drive computer model simulations of the earth’s climate. We have included low and high scenarios to bracket the range of possible future changes in climate. These range from a low greenhouse gas emissions scenario and relatively smaller change in groundwater levels, to a medium greenhouse gas scenario and relatively larger change in groundwater levels.",
+						"salinity":"The timing and magnitude of climate change will depend on the amount of greenhouse gases emitted and the response of the climate system to the change in greenhouse gases. To make projections of future climate, scientists use 'what if' scenarios of plausible future greenhouse gas emissions to drive computer model simulations of the earth’s climate. We have included low and high scenarios to bracket the range of possible future changes in climate. These range from a low greenhouse gas emissions scenario and relatively smaller change in saltwater intrusion, to a medium greenhouse gas scenario and relatively larger change in saltwater intrusion."
 					}
 				},
 				"climate": "Flood depths and extents are derived by calculating where excess streamflow ends up on the landscape. The “Historic” flood depths are based on an analysis of more than a century of past flood events. The “Future” flood depths are based on changes in temperature and precipitation relative to 1970-1999. The 2050s flood depth reference period is 2040-2069 and the 2080s flood depth reference period is 2070-2099.",
@@ -176,20 +176,22 @@
 								]
 							},
 							{
-								"name": "Delay to Spring Crop Cultivation",
+								"name": "Sea Level Rise - Groundwater Levels",
 								"value": "groundwater",
 								"controls": { 
 									"slider": ["climate"],
 									"togglebutton":["floodtype"]
-								}
+								},
+								"footer":"Sea level rise is predicted to lead to a higher groundwater table on estuary farmlands, impacting the ability of farmers to cultivate their fields in early spring. The map shows average predicted delays (in weeks) for future cultivation start dates based on sea level rise predictions. Zoom into your location and toggle through the Years below to view projected impacts. Click on Report above for more details on how this analysis was conducted."
 							},
 							{
-								"name": "Early Summer Salinity Intrusion",
+								"name": "Sea Level Rise - Saltwater Intrusion",
 								"value": "salinity",
 								"controls": { 
 									"slider": ["climate"],
 									"togglebutton":["salinitytype"]
-								}
+								},
+								"footer":"Sea level rise is predicted to lead to saltwater intrusion in the groundwater, negatively impacting productivity of farms in the estuary.  The map shows salinity values for groundwater in mS/cm. The brown line indicates the value at which local crops grown in the Stillaguamish Valley are predicted to experience impacts to yield. Toggle through the years to see current and future projected impacts."
 							}
 						]
 					}
@@ -319,7 +321,11 @@
 				}
 			},
 			"download": {
-				"report":"HOSTNAME-methods/SLR_Snohomish.pdf",
+				"report": {
+					"sea_level_rise":"HOSTNAME-methods/SLR_Snohomish.pdf",
+					"groundwater":"HOSTNAME-methods/Tech Report SLR Impacts Groundwater_Final Report.pdf",
+					"salinity":"HOSTNAME-methods/Tech Report SLR Impacts Groundwater_Final Report.pdf"
+				},
 				"data":""
 			},
 			"identify": {
