@@ -64,27 +64,27 @@
 			"sea_level_rise|2080s|low|100yr": [35],
 			"sea_level_rise|2080s|high|100yr": [38],
 			
-			"groundwater|2050|low": [76],
-			"groundwater|2080|low": [78],
-			"groundwater|2100|low": [80],
-			"groundwater|2050|high": [77],
-			"groundwater|2080|high": [79],
-			"groundwater|2100|high": [81],
+			"groundwater|2050|low": [80],
+			"groundwater|2080|low": [82],
+			"groundwater|2100|low": [84],
+			"groundwater|2050|high": [81],
+			"groundwater|2080|high": [83],
+			"groundwater|2100|high": [85],
 			
-			"salinity|2018|both": [67,71],
-			"salinity|2050|both": [68,72],
-			"salinity|2080|both": [69,73],
-			"salinity|2100|both": [70,74],
+			"salinity|2018|both": [68,69],
+			"salinity|2050|both": [71,72],
+			"salinity|2080|both": [74,75],
+			"salinity|2100|both": [77,78],
 			
-			"salinity|2018|threshold": [67],
-			"salinity|2050|threshold": [68],
-			"salinity|2080|threshold": [69],
-			"salinity|2100|threshold": [70],
+			"salinity|2018|threshold": [68],
+			"salinity|2050|threshold": [71],
+			"salinity|2080|threshold": [74],
+			"salinity|2100|threshold": [77],
 			
-			"salinity|2018|intrusion": [71],
+			"salinity|2018|intrusion": [69],
 			"salinity|2050|intrusion": [72],
-			"salinity|2080|intrusion": [73],
-			"salinity|2100|intrusion": [74]
+			"salinity|2080|intrusion": [75],
+			"salinity|2100|intrusion": [78]
 		}
 	}
 }

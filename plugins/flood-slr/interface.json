@@ -191,7 +191,7 @@
 									"slider": ["climate"],
 									"togglebutton":["salinitytype"]
 								},
-								"footer":"Sea level rise is predicted to lead to saltwater intrusion in the groundwater, negatively impacting productivity of farms in the estuary.  The map shows salinity values for groundwater in mS/cm. The brown line indicates the value at which local crops grown in the Stillaguamish Valley are predicted to experience impacts to yield. Toggle through the years to see current and future projected impacts."
+								"footer":"Sea level rise is predicted to lead to saltwater intrusion in the groundwater, negatively impacting productivity of farms in the estuary.  The map shows salinity values for groundwater in mS/cm. The threshold line indicates the value at which local crops grown in the Stillaguamish Valley are predicted to experience impacts to yield. Toggle through the years to see current and future projected impacts."
 							}
 						]
 					}
