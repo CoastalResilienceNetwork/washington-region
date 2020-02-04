@@ -1,5 +1,6 @@
 {
 	"includeMinimize": true,
+    "allowIdentifyWhenActive": true,
 	"infoGraphic": {
 		"show": true,
 		"popup": false,
